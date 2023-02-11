@@ -4,7 +4,7 @@ class SqueakyClean {
         String output;
         output = identifier.replace(' ', '_'); //Task 1
         output = output.replaceAll("[\\x00-\\x1F\\x7F]", "CTRL"); //Task 2
-        //Beginn of Task 3
+        //Begin Task 3
         StringBuilder stringB = new StringBuilder(output);
         for (int i = 0; i < stringB.length(); i += 1) {
             if (stringB.charAt(i) == '-'){
