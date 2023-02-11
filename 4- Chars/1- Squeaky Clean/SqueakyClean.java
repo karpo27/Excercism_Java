@@ -6,12 +6,12 @@ class SqueakyClean {
         output = output.replaceAll("[\\x00-\\x1F\\x7F]", "CTRL"); //Task 2
         //Beginn of Task 3
         StringBuilder stringB = new StringBuilder(output);
-        for (int i = 0; i < stringB.length(); i++) {
+        for (int i = 0; i < stringB.length(); i += 1) {
             if (stringB.charAt(i) == '-'){
-                i = i+1;
+                i = i + 1;
                 char newChar = Character.toUpperCase(stringB.charAt(i));
                 stringB.setCharAt(i, newChar);
-                stringB.deleteCharAt(i-1);
+                stringB.deleteCharAt(i - 1);
             }
         }
         return stringB.toString().replaceAll("[0-9]|[\\x{0001f300}-\\x{0001f64f}]|[\\u03B1-\\u03C9]", ""); //Task 4
