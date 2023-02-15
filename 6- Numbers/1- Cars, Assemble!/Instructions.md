@@ -10,14 +10,14 @@ At its lowest speed (1), 221 cars are produced each hour. The production increas
 
 You have two tasks.
 
-# 1. Calculate the production rate per hour
+## 1. Calculate the production rate per hour
 Implement the CarsAssemble.productionRatePerHour() method to calculate the assembly line's production rate per hour, taking into account its current assembly line's speed :
 
 ![image](https://user-images.githubusercontent.com/54405665/218283186-231bd831-9f5d-4793-889b-5d5a7e928d0a.png)
 
 Note that the value returned is a double.
 
-# 2. Calculate the number of working items produced per minute
+## 2. Calculate the number of working items produced per minute
 Implement the CarsAssemble.workingItemsPerMinute() method to calculate how many working cars are produced per minute:
 
 ![image](https://user-images.githubusercontent.com/54405665/218283190-271063f5-e554-4808-b0b3-d3a40f4c022e.png)
