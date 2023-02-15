@@ -26,22 +26,22 @@ Category: Small Hand
 
 The overall logic has already been implemented. You have four tasks:
 
-# 1. Calculate the score of any given card.
+## 1. Calculate the score of any given card.
 Implement a function to calculate the numerical value of a card given its name using conditionals.
 
 ![image](https://user-images.githubusercontent.com/54405665/218276178-36632b14-2955-45eb-ba52-b9ecf493f567.png)
 
-# 2. Determine if two cards make up a Blackjack.
+## 2. Determine if two cards make up a Blackjack.
 Implement a function that returns true if two cards form a Blackjack, false otherwise.
 
 ![image](https://user-images.githubusercontent.com/54405665/218276193-ef7fb9d1-9fb2-49ad-9137-09201b94b01b.png)
 
-# 3. Implement the decision logic for hand scores larger than 20 points.
+## 3. Implement the decision logic for hand scores larger than 20 points.
 Implement a function that returns the string representation of a decision given your cards. This function is only called if the handScore is larger than 20. It will receive 2 arguments: isBlackJack and dealerScore. It should implement the bulletpoints in the category "Large Hand" above.
 
 ![image](https://user-images.githubusercontent.com/54405665/218276200-c2c2be68-9320-46cf-973a-02ce10e9ed3c.png)
 
-# 4. Implement the decision logic for hand scores with less than 21 points.
+## 4. Implement the decision logic for hand scores with less than 21 points.
 Implement a function that returns the string representation of a decision given your cards. This function is only called if the handScore is less than 21. It will receive 2 arguments: handScore and dealerScore. It should implement the bulletpoints in the category "Small Hand" above.
 
 ![image](https://user-images.githubusercontent.com/54405665/218276209-41ea3141-21a8-411b-b078-a72a607033ff.png)
