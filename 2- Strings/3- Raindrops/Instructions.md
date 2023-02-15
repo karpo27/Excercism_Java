@@ -8,7 +8,7 @@ The rules of raindrops are that if a given number:
 - has 7 as a factor, add 'Plong' to the result.
 - does not have any of 3, 5, or 7 as a factor, the result should be the digits of the number.
 
-# Examples
+## Examples
 
 - 28 has 7 as a factor, but not 3 or 5, so the result would be "Plong".
 - 30 has both 3 and 5 as factors, but not 7, so the result would be "PlingPlang".
