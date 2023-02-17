@@ -17,4 +17,4 @@ For example, the six throws of four dice may look like:
 
 ## Notes
 
-Most programming languages feature (pseudo-)random generators, but few programming languages are designed to roll dice. One such language is Troll.
+Most programming languages feature (pseudo-)random generators, but few programming languages are designed to roll dice. One such language is Troll (http://hjemmesider.diku.dk/~torbenm/Troll/)
