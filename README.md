@@ -1,3 +1,5 @@
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/julian-giudice-940771a1/)
+
 # Excercism Java
 Instructions and Exercises from my Java track in Exercism.org
 
